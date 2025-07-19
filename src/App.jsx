@@ -2,7 +2,7 @@
 import NavBar from './components/NavBar.jsx'
 import ExperienceSection from './sections/ExperienceSection.jsx'
 import FeatureCards from './sections/FeatureCards.jsx'
-import Hero from './sections/hero.jsx'
+import Hero from './sections/Hero.jsx'
 import LogoSection from './sections/LogoSection.jsx'
 import ShowCaseSection from './sections/ShowCaseSection.jsx'
 
