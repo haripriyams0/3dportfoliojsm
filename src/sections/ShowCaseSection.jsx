@@ -62,7 +62,7 @@ useGSAP(() => {
                         <h2>Library Management Platform</h2>
                     </div>
 
-                    <a href = "www.vishnuavrportfolio.netlify.app"><div className='project' ref={project3Ref}>
+                    <a href = "https://vishnuavrportfolio.netlify.app"><div className='project' ref={project3Ref}>
                         <div className='image-wrapper bg-[#ffe7eb]'>
                             <img src='/images/project3.png' alt='YC Directory' />
                         </div>
