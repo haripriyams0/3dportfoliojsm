@@ -2,6 +2,7 @@
 const Button = ({text, className, id}) => {
   return (
     <a 
+     href="#counter"
      onClick={(e) => {
         e.preventDefault();
         const target = document.getElementById('counter')
@@ -14,13 +15,12 @@ const Button = ({text, className, id}) => {
             window.scrollTo({top, behavior: 'smooth'});
         }
      }}
-    className={`${className ?? ''} cta-wrapper`}>
-        <div className="cta-button group">
-            <div className="bg-circle">
-                <p className="text">{text}</p>
-                <div className="arrow-wrapper">
-                    <img src="/images/arrow-down.svg" alt="arrow" />
-                </div>
+    className={`${className ?? ''} cta-wrapper group`}>
+        <div className="cta-button">
+            <div className="bg-circle"></div>
+            <p className="text">{text}</p>
+            <div className="arrow-wrapper">
+                <img src="/images/arrow-down.svg" alt="arrow" />
             </div>
         </div>
     </a>
